@@ -4,9 +4,14 @@ const detalleTareas = document.querySelector('.detalle_tareas')
 const tareasTotales = document.querySelector('#total')
 const tareasRealizadas = document.querySelector('#realizada')
 
-const tareas = []
+const tareas = 
+[
+    {id : 1, descripcion : "Hacer mercado", realizada : 'true'},
+    {id : 2, descripcion : "Estudiar para la prueba", realizada : 'false'},
+    {id : 3, descripcion : "Sacar a pasear a Tobby", realizada : 'false'}
+]
 
-let idAutoIncremental = 0;
+let idAutoIncremental = 3;
 
 const generarId = () => ++idAutoIncremental;
 
